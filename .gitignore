@@ -3,4 +3,5 @@ db/
 logs/
 build/
 certs/
+incomplete/
 .env

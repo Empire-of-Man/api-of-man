@@ -1,12 +1,12 @@
 {
 	"name": "api-of-man",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "An API for Empire of Man bots and websites.",
-	"main": "./build/index.js",
+	"main": "./build/server.js",
 	"scripts": {
 		"preversion": "git add -A",
 		"build": "rm -rf ./build && tsc",
-		"start": "node ./build/index.js",
+		"start": "node ./build/server.js",
 		"database": "killall mongod ; mongod --dbpath ./db/ --logpath ./logs/db.log"
 	},
 	"author": "147dev",
